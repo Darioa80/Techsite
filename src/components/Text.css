@@ -1,0 +1,21 @@
+p.quote {
+  font-family: Raleway;
+  font-size: 24px;
+  color: #193a86;
+  padding: 2rem;
+  font-style: italic;
+}
+
+p.mainText {
+  color: black;
+  padding: 1rem;
+  font: Raleway;
+  font-size: 16px;
+}
+
+.name {
+  color: black;
+  font-family: Raleway;
+  font-size: 28px;
+  font-weight: bold;
+}
