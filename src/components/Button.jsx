@@ -1,3 +1,6 @@
+import React from "react";
+import { useState } from "react";
+
 const Button = (props) => {
   const { name } = props;
   const [active, setActive] = useState(false);
