@@ -1,4 +1,4 @@
-p.quote {
+.quote {
   font-family: Raleway;
   font-size: 24px;
   color: #193a86;
@@ -6,7 +6,7 @@ p.quote {
   font-style: italic;
 }
 
-p.mainText {
+.mainText {
   color: black;
   padding: 1rem;
   font: Raleway;
@@ -19,3 +19,5 @@ p.mainText {
   font-size: 28px;
   font-weight: bold;
 }
+
+/*# sourceMappingURL=text.css.map */

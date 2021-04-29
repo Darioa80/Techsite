@@ -5,8 +5,41 @@
   height: 400px;
 }
 
-div.center {
+.ResumeButtonBackground {
+  height: 4rem;
+  width: 100%;
+  background-color: #212529;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.ResumeButton {
+  height: fit-content;
+  line-height: normal;
+  width: fit-content;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  color: black;
+  border-color: white;
+  background-color: #00e6ac;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PDFStandard {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Image.css.map */

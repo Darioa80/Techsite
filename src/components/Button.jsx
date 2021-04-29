@@ -1,11 +1,12 @@
 import React from "react";
 import { useState } from "react";
+import PDFComponent from "./PDFComponent";
 
 const Button = (props) => {
-  const { name } = props;
+  const { name, pdf } = props;
   const [active, setActive] = useState(false);
-  let classes = "btn btn-lg btn-primary btn-";
-  active ? (classes += "outline-success") : (classes += "success");
+  //let classes = "btn btn-lg btn-primary btn-";
+  //active ? (classes += "outline-success") : (classes += "success");
 
   const showResume = () => {
     setActive(!active);
@@ -13,14 +14,14 @@ const Button = (props) => {
 
   return (
     <React.Fragment>
-      <div className="center">
-        <button onClick={showResume} className={classes}>
+      <div className="ResumeButtonBackground">
+        <button onClick={showResume} className="ResumeButton">
           {name}
         </button>
       </div>
       {active && (
         <div>
-          <h1>Resume Will be here - Visual + Google doc link</h1>
+          <PDFComponent file={pdf} />
         </div>
       )}
     </React.Fragment>

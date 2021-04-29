@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "../components/Image";
 import Button from "../components/Button";
+import { CSSTransition } from "react-transition-group";
 
+//import file from "../Resume.pdf";
 import "../components/Text.css";
 
 const MainPage = () => {
@@ -12,7 +14,7 @@ const MainPage = () => {
           <div className="col-sm">
             <p className="quote">
               "If I've learned anything from engineering, it's that I can always
-              try to figure out a probelm/situation. It's an encouraging
+              try to figure out a problem/situation. It's an encouraging
               thought, which makes the great uncertainty of life seem a bit less
               intimidating."
             </p>
@@ -40,7 +42,7 @@ const MainPage = () => {
         </div>
       </div>
       <div>
-        <Button name="Resume" />
+        <Button name="Resume" pdf={"Resume.pdf"} />
       </div>
     </React.Fragment>
   );
