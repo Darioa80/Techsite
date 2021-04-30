@@ -1,6 +1,9 @@
 import React from "react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import NavLogos from "./NavLogos";
+
+import "./Image.css";
 
 const NavBar = (props) => {
   const { menuTitles, urlEndPoints } = props;
@@ -9,7 +12,7 @@ const NavBar = (props) => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark"
-      style={{ marginTop: "25px" }}
+      style={{ marginTop: "10px", paddingLeft: "2rem" }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
@@ -41,6 +44,7 @@ const NavBar = (props) => {
               </li>
             ))}
           </ul>
+          <NavLogos></NavLogos>
         </div>
       </div>
     </nav>

@@ -19,11 +19,7 @@ const Button = (props) => {
           {name}
         </button>
       </div>
-      {active && (
-        <div>
-          <PDFComponent file={pdf} />
-        </div>
-      )}
+      <div>{active && <PDFComponent file={pdf} active={active} />}</div>
     </React.Fragment>
   );
 };

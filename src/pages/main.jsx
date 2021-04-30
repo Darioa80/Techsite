@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "../components/Image";
 import Button from "../components/Button";
-import { CSSTransition } from "react-transition-group";
 
 //import file from "../Resume.pdf";
 import "../components/Text.css";
@@ -13,10 +12,8 @@ const MainPage = () => {
         <div className="row">
           <div className="col-sm">
             <p className="quote">
-              "If I've learned anything from engineering, it's that I can always
-              try to figure out a problem/situation. It's an encouraging
-              thought, which makes the great uncertainty of life seem a bit less
-              intimidating."
+              "A jack of all trades is a master of none, but{" "}
+              <b>oftentimes better </b> than a master of one"
             </p>
             <p className="maintext">
               Dario Andrade Mendoza holds a Master's degree in Electrical and
