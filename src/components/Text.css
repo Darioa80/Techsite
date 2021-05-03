@@ -20,4 +20,19 @@
   font-weight: bold;
 }
 
-/*# sourceMappingURL=text.css.map */
+.projText {
+  font-family: Roboto;
+  font-size: 1.25re;
+  color: black;
+  margin: 1em;
+  padding: 1em;
+}
+
+.projName {
+  font-size: 1rem;
+  color: black;
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Text.css.map */

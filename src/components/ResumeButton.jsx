@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import PDFComponent from "./PDFComponent";
 
-const Button = (props) => {
+const ResumeButton = (props) => {
   const { name, pdf } = props;
   const [active, setActive] = useState(false);
   //let classes = "btn btn-lg btn-primary btn-";
@@ -24,4 +24,4 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+export default ResumeButton;

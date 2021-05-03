@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../components/Image";
-import Button from "../components/Button";
+import ResumeButton from "../components/ResumeButton";
 
 //import file from "../Resume.pdf";
 import "../components/Text.css";
@@ -33,13 +33,14 @@ const MainPage = () => {
             <Image
               image="Dario-main-tall.jpg"
               alt="Dario"
+              styleName="mainImage"
               name="Dario Andrade Mendoza"
             />
           </div>
         </div>
       </div>
       <div>
-        <Button name="Resume" pdf={"Resume.pdf"} />
+        <ResumeButton name="Resume" pdf={"Resume.pdf"} />
       </div>
     </React.Fragment>
   );

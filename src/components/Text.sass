@@ -1,10 +1,15 @@
-.quote 
-    font-family: Raleway
-    font-size: 24px
-    color: #193a86
-    padding: 2rem
-    font-style: italic
+$font: Roboto
+=nameFont()
+  color: black
+  font-family: Raleway
+  font-weight: bold
 
+.quote 
+  font-family: Raleway
+  font-size: 24px
+  color: #193a86
+  padding: 2rem
+  font-style: italic
 
 .mainText 
   color: black
@@ -19,3 +24,13 @@
   font-size: 28px
   font-weight: bold
 
+.projText
+  font-family: $font
+  font-size: 1.25re
+  color: black
+  margin: 1em
+  padding: 1em
+
+.projName
+  font-size: 1rem
+  +nameFont

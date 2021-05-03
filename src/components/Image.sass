@@ -5,12 +5,20 @@
   align-items: center
     
 $font: Roboto
+$mainColor: #00e6ac 
 
 .mainImage 
-  margin: 1rem 0
-  padding: 2rem 2rem 0 2rem
+  margin: 1rem 0rem
+  padding: 0rem 2rem 0 2rem
   width: 65%
-  height: 400px
+  height: 20rem
+
+.projectImage 
+  margin-bottom: 1rem
+  width: 70%
+
+.logoImage
+  width: 8rem
 
 .ResumeButtonBackground
     height: 3rem
@@ -50,17 +58,21 @@ $font: Roboto
     height: 2rem
     margin-right: 1rem
 
+.projCard-back
+    
+    border-color: black
+    border-width: 2.5rem
+    background-color: #C8C8C8
+    opacity: 1
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26)
+    border-radius: 6px
 
-.my-fade-enter 
-  opacity: 0
+.viewButton
 
-.my-fade-enter-active 
-  opacity: 1
-  transition: opacity 200ms
+    background-color: #1A3675
+    border-radius: 6px
+    border: .5rem
+    border-color: black
+    color: $mainColor
+    margin-bottom: 1rem
 
-.my-fade-exit 
-  opacity: 1
-
-.my-fade-exit-active 
-  opacity: 0
-  transition: opacity 200ms
