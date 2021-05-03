@@ -8,7 +8,7 @@ const NavLogos = () => {
         target="_blank"
       >
         <img
-          style={{ width: "2rem" }}
+          style={{ width: "2.5rem" }}
           src="Linkedin-logo.png"
           className="d-inline-block"
           alt="LinkedIn logo"

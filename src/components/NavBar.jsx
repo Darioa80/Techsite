@@ -12,7 +12,7 @@ const NavBar = (props) => {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark"
-      style={{ marginTop: "10px", paddingLeft: "2rem" }}
+      style={{ marginTop: "10px", paddingLeft: "3rem" }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">

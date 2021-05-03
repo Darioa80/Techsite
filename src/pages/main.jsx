@@ -13,7 +13,7 @@ const MainPage = () => {
           <div className="col-sm">
             <p className="quote">
               "A jack of all trades is a master of none, but{" "}
-              <b>oftentimes better </b> than a master of one"
+              <b>often times better </b> than a master of one"
             </p>
             <p className="maintext">
               Dario Andrade Mendoza holds a Master's degree in Electrical and
