@@ -3,14 +3,22 @@
   display: flex
   justify-content: center
   align-items: center
-    
+
+=background($width)
+  border-color: black
+  border-width: 2.5rem
+  background-color: #C8C8C8
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26)
+  border-radius: 6px
+  width: $width
+
 $font: Roboto
 $mainColor: #00e6ac 
 
 .mainImage 
   margin: 1rem 0rem
   padding: 0rem 2rem 0 2rem
-  width: 55%
+  width: 75%
   
 
 .projectImage 
@@ -25,7 +33,7 @@ $mainColor: #00e6ac
     width: 100%
     background-color: #212529
     margin-bottom: 1rem
-    margin-top: 1rem
+    margin-top: 2rem
     +centerParent
 
 .ResumeButton
@@ -59,15 +67,11 @@ $mainColor: #00e6ac
     height: 2.5rem
     margin-right: 1rem
 
+.main-back
+  +background(30%)
+
 .projCard-back
-    
-    border-color: black
-    border-width: 2.5rem
-    background-color: #C8C8C8
-    opacity: 1
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26)
-    border-radius: 6px
-    width: 85%
+    +background(85%)
 
 .viewButton
 

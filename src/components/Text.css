@@ -8,9 +8,26 @@
 
 .mainText {
   color: black;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.bioText {
+  color: black;
+  font: Roboto;
+  font-size: 0.85rem;
   padding: 1rem;
-  font: Raleway;
-  font-size: 16px;
+}
+
+.descText {
+  color: black;
+  font: Roboto;
+  text-align: center;
+  font-size: 0.65rem;
+  font-style: italic;
+  padding: 0rem 2rem;
 }
 
 .name {

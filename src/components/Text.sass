@@ -4,6 +4,11 @@ $font: Roboto
   font-family: Raleway
   font-weight: bold
 
+=text()
+  color: black
+  
+  font: $font
+
 .quote 
   font-family: Raleway
   font-size: 24px
@@ -12,11 +17,22 @@ $font: Roboto
   font-style: italic
 
 .mainText 
-  color: black
-  padding: 1rem
-  font: Raleway
-  font-size: 16px
+  +nameFont
+  font-size: 2rem
+  font-style: italic
 
+
+.bioText
+  +text
+  font-size: .85rem 
+  padding: 1rem
+
+.descText
+  +text
+  text-align: center
+  font-size: .65rem
+  font-style: italic
+  padding: 0rem 2rem
 
 .name 
   color: black

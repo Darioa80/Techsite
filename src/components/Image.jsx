@@ -14,7 +14,9 @@ const Image = (props) => {
       <div className="center">
         <img className={styleName} src={image} alt={alt} />
       </div>
-      <div className="center">{description && <p>{description}</p>}</div>
+      <div className="center">
+        {description && <p className="descText">{description}</p>}
+      </div>
     </React.Fragment>
   );
 };

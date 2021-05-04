@@ -25,7 +25,7 @@ const Projects = () => {
           image="mern.PNG"
           styleName="projectImage"
           alt="Image of the MERN Fullstack application I deployed following Udemy's `The MERN Fullstack Guide`. it shows a place a user has created. The user is at the University of Arizona's Aerospace and Mechanical Engineering building."
-          text="This is a MERN Fullstack application I deployed following Udemy's `The MERN Fullstack Guide`. This applicaiton allows users to create an account and share palces they have been. A place is shared by uploading an image, a description and an addressfor the Google Maps integration. After following the course, I added extra features such as storing the images on AWS S3 buckets instead of Heroku's free dynos to permanently store uploaded images"
+          text="This is a MERN Fullstack application I deployed following Udemy's `The MERN Fullstack Guide`. This application allows users to create an account and share places they have been. A place is shared by uploading an image,and sharing a description and an address for the Google Maps integration. After following the course, I added extra features such as storing the images on AWS S3 buckets instead of Heroku's free dynos to permanently store uploaded images."
           name="MERN App"
           projectURL="https://mern-practice-b1ac2.web.app/"
           GitURL="https://github.com/Darioa80/MERN-Backend"

@@ -1,47 +1,46 @@
 import React from "react";
 import Image from "../components/Image";
 import ResumeButton from "../components/ResumeButton";
-
+import Logos from "../components/Logos";
 //import file from "../Resume.pdf";
 import "../components/Text.css";
 
 const MainPage = () => {
+  const logos = [
+    "MongoDB-Logo.png",
+    "node-express.png",
+    "react-logo.png",
+    "unity.png",
+    "C-Sharp.png",
+    "java.png",
+  ];
+
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="row">
-          <div className="col-sm">
-            <p className="quote">
-              "A jack of all trades is a master of none, but{" "}
-              <b>often times better </b> than a master of one"
-            </p>
-            <p className="maintext">
-              Dario Andrade Mendoza holds a Master's degree in Electrical and
-              Computer Engineering from the University of Arizona. Dario also
-              holds a bachelor's degree in Mechanical Engineering. While he has
-              spent years studying STEM he has also managed to create profound
-              change in Tucson Arizona as a grassroots communty leader.
-            </p>
-            <p className="maintext">
-              Given the scope of his experience, Dario has decided to pursue
-              <b> Software Development</b> as a career. This site is his
-              personal website to share the programming projects he has worked
-              on and deployed.
-            </p>
-          </div>
-          <div className="col-sm">
-            <Image
-              image="Dario-main-tall.jpg"
-              alt="Dario"
-              styleName="mainImage"
-              name="Dario Andrade Mendoza"
-            />
-          </div>
+      <div className="center">
+        <div
+          className="center main-back"
+          style={{ flexDirection: "column", marginTop: "4rem" }}
+        >
+          <p className="name">
+            Dario Andrade Mendoza <br />
+          </p>
+          <p style={{ textAlign: "center" }}>
+            Pronouns: He/Him/His <br />
+            Electrical and Computer Engineering | M.S. <br />
+            Mechanical Engineering | B.S. <br />
+          </p>
+          <p style={{ color: "#1A3675" }}>
+            <b>dario.andrade.mendoza@gmail.com</b>
+          </p>
         </div>
       </div>
+
       <div>
-        <ResumeButton name="Resume" pdf={"Resume.pdf"} />
+        <Logos logos={logos} />
       </div>
+
+      <ResumeButton name="Resume" pdf={"Resume.pdf"} />
     </React.Fragment>
   );
 };

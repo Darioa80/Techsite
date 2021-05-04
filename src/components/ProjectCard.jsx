@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./Image";
 import ViewProj from "./ViewProj";
+import Logos from "./Logos";
 
 const ProjectCard = (props) => {
   const {
@@ -30,15 +31,7 @@ const ProjectCard = (props) => {
       </div>
       <div className="col-sm" style={{ margin: "1rem" }}>
         <p className="projText">{text}</p>
-        <div className="center">
-          {logos.map((item, index) => (
-            <img
-              className="logoImage"
-              src={item}
-              style={{ margin: "0rem .25rem" }}
-            />
-          ))}
-        </div>
+        <Logos logos={logos} />
       </div>
     </div>
   );
