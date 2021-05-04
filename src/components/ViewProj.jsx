@@ -6,14 +6,15 @@ const ViewProj = (props) => {
   return (
     <div className="center">
       {projectURL && (
-        <button href={projectURL} className="viewButton">
-          Deployed Project
-        </button>
+        <a href={projectURL} target="_blank">
+          {" "}
+          <button className="viewButton">Deployed Project</button>
+        </a>
       )}
       {GitURL && (
-        <button href={GitURL} className="viewButton">
-          Github Code
-        </button>
+        <a href={GitURL} target="_blank">
+          <button className="viewButton">Github Code</button>
+        </a>
       )}
     </div>
   );
