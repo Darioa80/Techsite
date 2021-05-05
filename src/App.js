@@ -21,6 +21,7 @@ function App() {
           <Route path={urlEndPoints[1]} component={Bio} />
 
           <Route path="/" exact component={MainPage} />
+          <Redirect to="/" />
         </Switch>
       </main>
     </React.Fragment>

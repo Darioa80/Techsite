@@ -8,6 +8,15 @@ const Bio = () => {
     <React.Fragment>
       <div className="container">
         <div className="row">
+          <div className="col-sm-4 center" style={{ flexDirection: "column" }}>
+            <Image
+              image="Dario-main-tall.jpg"
+              alt="Dario"
+              styleName="mainImage"
+              name="Dario Andrade Mendoza"
+              description="Dario leading a conversation around mental health and resilience with Ladytowne"
+            />
+          </div>
           <div className="col-sm-8 center">
             <p className="bioText">
               My journey in software development started in 2015, when I was a
@@ -22,11 +31,10 @@ const Bio = () => {
               It quickly became one of my favorite classes of that semester.
               Every week we had to solve programming problems, and each week
               they became more complex. This class provided a new experience for
-              me. It challenged the way I approached problems, taught me new
-              concepts each week and also rewarded the effort put into it. It
-              was not only a grade this time. There was a feeling of excitement
-              and pride when the program worked. Even when it took most of my
-              weekend. I decided to pursue programming classes along with my
+              me. It challenged the way I approached problems and rewarded the
+              effort put into it. The reward was more than a grade this time.
+              There was a feeling of excitement and pride when the program
+              worked. I decided to pursue programming classes along with my
               Mechanical Engineering degree. Taking 4 programming classes in
               total where{" "}
               <b>
@@ -54,15 +62,6 @@ const Bio = () => {
               again. <b>I'm determined</b> to start my career as a software
               developer.
             </p>
-          </div>
-          <div className="col-sm-4 center" style={{ flexDirection: "column" }}>
-            <Image
-              image="Dario-main-tall.jpg"
-              alt="Dario"
-              styleName="mainImage"
-              name="Dario Andrade Mendoza"
-              description="Dario leading a conversation around mental health and resilience with Ladytowne"
-            />
           </div>
         </div>
       </div>

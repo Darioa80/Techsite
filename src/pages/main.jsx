@@ -22,21 +22,21 @@ const MainPage = () => {
           className="center main-back"
           style={{ flexDirection: "column", marginTop: "4rem" }}
         >
-          <p className="name">
+          <p className="name" style={{ textAlign: "center" }}>
             Dario Andrade Mendoza <br />
           </p>
-          <p style={{ textAlign: "center" }}>
+          <p className="mainText" style={{ textAlign: "center" }}>
             Pronouns: He/Him/His <br />
             Electrical and Computer Engineering | M.S. <br />
             Mechanical Engineering | B.S. <br />
           </p>
-          <p style={{ color: "#1A3675" }}>
+          <p className="mainText" style={{ color: "#1A3675" }}>
             <b>dario.andrade.mendoza@gmail.com</b>
           </p>
         </div>
       </div>
 
-      <div>
+      <div className="center">
         <Logos logos={logos} />
       </div>
 

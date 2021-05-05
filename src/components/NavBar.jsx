@@ -9,6 +9,10 @@ const NavBar = (props) => {
   const { menuTitles, urlEndPoints } = props;
   const idVar = "Dario";
   //nav-pills
+  //id="navbarSupportedContent"
+  //<NavLogos></NavLogos>
+  //exact={urlEndPoints[Index] === "/" ? true : false}
+  //aria-current={urlEndPoints[Index] === "/" ? "page" : null}
   return (
     <nav
       className="navbar navbar-expand-lg navbar-dark bg-dark"
@@ -21,30 +25,31 @@ const NavBar = (props) => {
         <button
           className="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div
+          className="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+          style={{ width: "100%" }}
+        >
           <ul className="navbar-nav">
             {menuTitles.map((menuItem, Index) => (
               <li key={Index + idVar.charCodeAt(0)} className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  exact={urlEndPoints[Index] === "/" ? true : false}
-                  to={urlEndPoints[Index]}
-                  aria-current={urlEndPoints[Index] === "/" ? "page" : null}
-                >
+                <NavLink className="nav-link" to={urlEndPoints[Index]}>
                   {menuItem}
                 </NavLink>
               </li>
             ))}
+            <li>
+              <NavLogos />
+            </li>
           </ul>
-          <NavLogos></NavLogos>
         </div>
       </div>
     </nav>

@@ -8,10 +8,8 @@
 
 .mainText {
   color: black;
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 2rem;
-  font-style: italic;
+  font-family: Roboto;
+  font-size: 1.25rem;
 }
 
 .bioText {
@@ -33,7 +31,7 @@
 .name {
   color: black;
   font-family: Raleway;
-  font-size: 28px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -50,6 +48,18 @@
   color: black;
   font-family: Raleway;
   font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .mainText {
+    color: black;
+    font-family: Roboto;
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=Text.css.map */
