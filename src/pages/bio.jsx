@@ -6,9 +6,9 @@ import "../components/Image.css";
 const Bio = () => {
   return (
     <React.Fragment>
-      <div className="container" style={{ marginTop: "3rem" }}>
+      <div className="container" style={{ marginTop: "2rem" }}>
         <div className="row">
-          <div className="col-sm-4 center" style={{ flexDirection: "column" }}>
+          <div className="col-sm center" style={{ flexDirection: "column" }}>
             <Image
               image="Dario-main-tall.jpg"
               alt="Dario"
@@ -17,7 +17,7 @@ const Bio = () => {
               description="Dario leading a conversation around mental health and resilience with Ladytowne"
             />
           </div>
-          <div className="col-sm-8 center">
+          <div className="col-sm center">
             <p className="bioText">
               My journey in software development started in 2015, when I was a
               junior at the University of Arizona. I was studying Mechanical

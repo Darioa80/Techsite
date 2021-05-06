@@ -8,7 +8,7 @@ const Projects = () => {
     <React.Fragment>
       <div
         className="container center"
-        style={{ paddingTop: "1rem", marginTop: "3rem" }}
+        style={{ paddingTop: "1rem", marginTop: "2rem" }}
       >
         <ProjectCard
           image="tower.PNG"

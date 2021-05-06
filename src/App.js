@@ -1,6 +1,5 @@
 import React from "react";
 import { Redirect, Route, Switch } from "react-router-dom";
-import NavBar from "./components/NavBar";
 import MainPage from "../src/pages/main.jsx";
 import Projects from "./pages/projects.jsx";
 import Bio from "./pages/bio.jsx";
