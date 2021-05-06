@@ -6,7 +6,10 @@ const MERNLogos = ["MongoDB-Logo.png", "node-express.png", "react-logo.png"];
 const Projects = () => {
   return (
     <React.Fragment>
-      <div className="container center" style={{ paddingTop: "1rem" }}>
+      <div
+        className="container center"
+        style={{ paddingTop: "1rem", marginTop: "3rem" }}
+      >
         <ProjectCard
           image="tower.PNG"
           styleName="projectImage"

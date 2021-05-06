@@ -4,8 +4,10 @@ import NavBar from "./components/NavBar";
 import MainPage from "../src/pages/main.jsx";
 import Projects from "./pages/projects.jsx";
 import Bio from "./pages/bio.jsx";
+import Navigation from "./components/Navigation";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 
 function App() {
@@ -14,7 +16,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <NavBar menuTitles={menuTitles} urlEndPoints={urlEndPoints} />
+      <Navigation menuTitles={menuTitles} urlEndPoints={urlEndPoints} />
       <main>
         <Switch>
           <Route path={urlEndPoints[0]} component={Projects} />

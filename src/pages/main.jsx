@@ -3,6 +3,7 @@ import Image from "../components/Image";
 import ResumeButton from "../components/ResumeButton";
 import Logos from "../components/Logos";
 //import file from "../Resume.pdf";
+import NavLogos from "../components/NavLogos";
 import "../components/Text.css";
 
 const MainPage = () => {
@@ -17,10 +18,11 @@ const MainPage = () => {
 
   return (
     <React.Fragment>
-      <div className="center">
+      <NavLogos />
+      <div className="center" style={{ marginTop: "0rem" }}>
         <div
           className="center main-back"
-          style={{ flexDirection: "column", marginTop: "4rem" }}
+          style={{ flexDirection: "column", marginTop: "1rem" }}
         >
           <p className="name" style={{ textAlign: "center" }}>
             Dario Andrade Mendoza <br />

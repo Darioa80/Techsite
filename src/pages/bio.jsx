@@ -6,7 +6,7 @@ import "../components/Image.css";
 const Bio = () => {
   return (
     <React.Fragment>
-      <div className="container">
+      <div className="container" style={{ marginTop: "3rem" }}>
         <div className="row">
           <div className="col-sm-4 center" style={{ flexDirection: "column" }}>
             <Image
