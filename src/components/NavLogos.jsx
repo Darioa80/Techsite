@@ -3,7 +3,7 @@ import React from "react";
 const NavLogos = () => {
   return (
     <React.Fragment>
-      <div className="center NavBar-logos" style={{ paddingTop: "1.5rem" }}>
+      <div className="center NavBar-logos" style={{ paddingTop: "1.25rem" }}>
         <a
           href="https://www.linkedin.com/in/dario-andrade-mendoza-563ab41bb/"
           target="_blank"
