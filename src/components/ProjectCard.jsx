@@ -29,7 +29,7 @@ const ProjectCard = (props) => {
         />
         <ViewProj projectURL={projectURL} GitURL={GitURL} />
       </div>
-      <div className="col-sm" style={{ margin: "1rem" }}>
+      <div className="col-sm">
         <p className="projText">{text}</p>
         <Logos logos={logos} />
       </div>

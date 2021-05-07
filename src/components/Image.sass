@@ -52,7 +52,7 @@ $mainColor: #00e6ac
 .center
     +centerParent
 
-.PDFStandard
+.PDFDiv
     margin: 1rem
     padding: 1rem
     +centerParent
@@ -92,6 +92,10 @@ $mainColor: #00e6ac
   width: 75%
   flex-wrap: wrap
 
+
+  
+
+
 @media (min-width: 900px)
   .main-back
     +background(45%)
@@ -103,9 +107,13 @@ $mainColor: #00e6ac
 
 @media (max-width: 700px)
   .main-back
-    +background(55%)
+    +background(65%)
   .projCard-back
     +background(85%)
+  .PDFDiv
+    width: 90%
+  
+    
   
   
 

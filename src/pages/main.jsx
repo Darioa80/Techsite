@@ -32,7 +32,10 @@ const MainPage = () => {
             Electrical and Computer Engineering | M.S. <br />
             Mechanical Engineering | B.S. <br />
           </p>
-          <p className="mainText" style={{ color: "#1A3675" }}>
+          <p
+            className="mainText"
+            style={{ color: "#1A3675", wordWrap: "inherit" }}
+          >
             <b>dario.andrade.mendoza@gmail.com</b>
           </p>
         </div>

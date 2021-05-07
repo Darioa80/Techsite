@@ -43,7 +43,7 @@
   align-items: center;
 }
 
-.PDFStandard {
+.PDFDiv {
   margin: 1rem;
   padding: 1rem;
   display: flex;
@@ -128,7 +128,7 @@
     background-color: #C8C8C8;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 6px;
-    width: 55%;
+    width: 65%;
   }
 
   .projCard-back {
@@ -138,6 +138,10 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border-radius: 6px;
     width: 85%;
+  }
+
+  .PDFDiv {
+    width: 90%;
   }
 }
 
