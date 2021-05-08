@@ -7,6 +7,8 @@ const ResumeButton = (props) => {
   const [active, setActive] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
+  const PDFURL =
+    "https://drive.google.com/file/d/1JVNsZXude4g3OAXmEJYFkg7ToCbL28na/view?usp=sharing";
   useEffect(() => {
     function handleResize() {
       setIsMobile(window.screen.width <= 768);
@@ -30,15 +32,14 @@ const ResumeButton = (props) => {
           </button>
         )}
         {isMobile && (
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1F3VYKopH97xEptrv6a4lniyct3KehkFP/view?usp=sharing"
-          >
+          <a target="_blank" href={PDFURL}>
             <button className="ResumeButton">{name}</button>
           </a>
         )}
       </div>
-      <div>{active && <PDFComponent file={pdf} active={active} />}</div>
+      <div className="centerColumn">
+        {active && <PDFComponent file={pdf} active={active} PDFURL={PDFURL} />}
+      </div>
     </React.Fragment>
   );
 };

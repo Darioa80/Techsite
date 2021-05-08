@@ -43,9 +43,17 @@
   align-items: center;
 }
 
+.centerColumn {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .PDFDiv {
-  margin: 1rem;
-  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  padding: 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
