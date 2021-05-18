@@ -56,7 +56,7 @@ const Bio = () => {
               project I deployed as well as Data Structures and Algorithms
               through LeetCode. <br />
               <br /> I'm always excited to learn new technologies and skills,
-              and enver afraid to revisit concepts i've learned in the past. I
+              and never afraid to revisit concepts i've learned in the past. I
               continue to problem solve, to learn and to challenge myself. These
               personality traits have lead me to programming time and time
               again. <b>I'm determined</b> to start my career as a software

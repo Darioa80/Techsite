@@ -45,7 +45,7 @@ const MainPage = () => {
         <Logos logos={logos} />
       </div>
 
-      <ResumeButton name="Resume" pdf={"Resume.pdf"} />
+      <ResumeButton name="Resume" pdf={"Resume-Dario.pdf"} />
     </React.Fragment>
   );
 };

@@ -1,17 +1,19 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import PDFComponent from "./PDFComponent";
 
 const ResumeButton = (props) => {
   const { name, pdf } = props;
   const [active, setActive] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const elementRef = useRef(null);
 
   const PDFURL =
     "https://drive.google.com/file/d/1JVNsZXude4g3OAXmEJYFkg7ToCbL28na/view?usp=sharing";
   useEffect(() => {
     function handleResize() {
-      setIsMobile(window.screen.width <= 768);
+      console.log(elementRef.current.getBoundingClientRect().width);
+      setIsMobile(elementRef.current.getBoundingClientRect().width <= 960);
     }
     window.addEventListener("resize", handleResize);
   });
@@ -25,7 +27,7 @@ const ResumeButton = (props) => {
 
   return (
     <React.Fragment>
-      <div className="ResumeButtonBackground">
+      <div className="ResumeButtonBackground" ref={elementRef}>
         {!isMobile && (
           <button onClick={showResume} className="ResumeButton">
             {name}
